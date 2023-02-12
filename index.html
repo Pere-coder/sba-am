@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@300;400;500;600&family=Questrial&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Prototype</title>
+    <style>
+        *,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.top-\[170px\]{top:170px}.left-\[114px\]{left:114px}.left-\[-80px\]{left:-80px}.top-\[159px\]{top:159px}.left-\[-26px\]{left:-26px}.top-\[163px\]{top:163px}.left-\[-127px\]{left:-127px}.-z-10{z-index:-10}.z-20{z-index:20}.z-10{z-index:10}.z-50{z-index:50}.mt-96{margin-top:24rem}.mt-3{margin-top:.75rem}.mt-11{margin-top:2.75rem}.mr-2{margin-right:.5rem}.-mt-20{margin-top:-5rem}.ml-\[130px\]{margin-left:130px}.mt-5{margin-top:1.25rem}.mt-\[-60px\]{margin-top:-60px}.mt-\[-90px\]{margin-top:-90px}.mt-\[-10px\]{margin-top:-10px}.mt-\[-15px\]{margin-top:-15px}.mb-5{margin-bottom:1.25rem}.mt-\[-20px\]{margin-top:-20px}.ml-\[-10px\]{margin-left:-10px}.mt-\[-80px\]{margin-top:-80px}.ml-\[35px\]{margin-left:35px}.mt-\[-70px\]{margin-top:-70px}.mt-\[-65px\]{margin-top:-65px}.flex{display:flex}.h-screen{height:100vh}.h-\[690px\]{height:690px}.h-\[3250px\]{height:3250px}.h-\[2620px\]{height:2620px}.h-\[430px\]{height:430px}.h-\[470px\]{height:470px}.w-full{width:100%}.w-\[450px\]{width:450px}.w-\[177px\]{width:177px}.w-\[400px\]{width:400px}.w-\[0\.5px\]{width:.5px}.w-\[300px\]{width:300px}.max-w-\[1490px\]{max-width:1490px}.scale-75{--tw-scale-x: .75;--tw-scale-y: .75;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.snap-start{scroll-snap-align:start}.snap-center{scroll-snap-align:center}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.gap-8{gap:2rem}.justify-self-end{justify-self:end}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.bg-secondary{--tw-bg-opacity: 1;background-color:rgb(216 3 105 / var(--tw-bg-opacity))}.bg-grey-200{--tw-bg-opacity: 1;background-color:rgb(180 180 180 / var(--tw-bg-opacity))}.bg-\[\#D80369\]{--tw-bg-opacity: 1;background-color:rgb(216 3 105 / var(--tw-bg-opacity))}.px-\[40px\]{padding-left:40px;padding-right:40px}.py-\[15px\]{padding-top:15px;padding-bottom:15px}.pt-\[38px\]{padding-top:38px}.text-center{text-align:center}.text-right{text-align:right}.font-montserrat{font-family:Montserrat}.font-dm-sans{font-family:DM Sans}.font-cab-grot{font-family:Questrial}.text-\[45px\]{font-size:45px}.text-\[18px\]{font-size:18px}.text-\[14px\]{font-size:14px}.text-\[20px\]{font-size:20px}.font-extrabold{font-weight:800}.font-bold{font-weight:700}.text-grey-300{--tw-text-opacity: 1;color:rgb(30 28 28 / var(--tw-text-opacity))}.text-secondary{--tw-text-opacity: 1;color:rgb(216 3 105 / var(--tw-text-opacity))}.text-grey-400{--tw-text-opacity: 1;color:rgb(80 80 80 / var(--tw-text-opacity))}.text-primary{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.opacity-10{opacity:.1}::-webkit-scrollbar{display:none}#scroll{scroll-behavior:smooth}@media (min-width: 768px){.md\:left-\[193\.24px\]{left:193.24px}.md\:left-\[-145px\]{left:-145px}.md\:left-\[-67px\]{left:-67px}.md\:top-\[170px\]{top:170px}.md\:left-\[-247px\]{left:-247px}.md\:mt-0{margin-top:0}.md\:ml-\[250px\]{margin-left:250px}.md\:h-auto{height:auto}.md\:h-\[2630px\]{height:2630px}.md\:w-\[600px\]{width:600px}.md\:scale-100{--tw-scale-x: 1;--tw-scale-y: 1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.md\:flex-row{flex-direction:row}.md\:justify-between{justify-content:space-between}.md\:px-\[80px\]{padding-left:80px;padding-right:80px}.md\:text-left{text-align:left}.md\:text-\[60px\]{font-size:60px}.md\:text-\[30px\]{font-size:30px}}
+
+        .scale-65 {
+          transform: scale(0.65);
+        }
+
+        .w-1 {
+          width: .7px;
+        }
+
+        .h-full {
+          height: 100%;
+        }
+
+        .md-left-58px {
+          left: -58px
+        } 
+        
+        
+
+        @media screen and (max-width: 500px) {
+          .left-16px {
+            left: -16px
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          main {
+            width: 100%;
+          }   
+        }
+    </style>
+</head>
+<body>
+    <main class='md:h-auto md:px-[80px] px-[40px] pt-[38px] flex md:flex-row flex-col items-center md:justify-between w-full max-w-[1490px] '>
+        <section class='md:scale-100 scale-65 md:mt-0'>
+          <h1 class='md:text-[60px] text-[45px] font-extrabold font-montserrat md:text-left text-center'><span class='text-grey-300 font-extrabold font-dm-sans' >Product</span> <span class='text-secondary font-extrabold'>Evolution</span></h1>
+          <p class='mt-3 text-grey-400 text-[18px] font-montserrat md:text-left text-center'>Explore the growth of sterling pro over the years.</p>
+          <div class='flex flex-wrap w-[450px] gap-8 mt-11' id="btn-div"></div>
+        </section>
+        <section 
+          class='overflow-hidden h-[690px] md:w-[600px] w-[400px] md:mt-0 -mt-20 justify-self-end md:scale-100 scale-75 ' id='scroll' 
+          onscroll={listenScroll}
+        >
+          <div class='w-full relative h-[3250px] ' id="scroll-div"></div>
+        </section>
+      </main>
+      <script>
+        let scrollTop = 0;
+        let btnStates = [
+          {content: "2009", active: true, scrollTop: 0},
+          {content: "2010 - 2012", active: false, scrollTop: 430,},
+          {content: "2013 - 2014", active: false, scrollTop: 860,},
+          {content: "2014 - 2015", active: false, scrollTop: 1260,},
+          {content: "2016 - 2019", active: false, scrollTop: 1720,},
+          {content: "2020 - 2021", active: false, scrollTop: 2150,},
+          {content: "2022", active: false, scrollTop: 3000, star: true}    
+        ];
+      
+        const handleBtnClick = (i, currScrollT) => {
+          
+          const updatedBtnStates = btnStates.map((btnState, idx) => 
+              {
+                idx === i ? btnState.active = true : btnState.active = false
+      
+                return btnState;
+              }
+            )
+          btnStates = updatedBtnStates;
+          console.log(btnStates);
+          handleScroll(currScrollT);
+          checkOpacityLevel(currScrollT);
+          showButtons();
+        }
+      
+        const handleScroll = (scrollTop) => { 
+          document.getElementById('scroll').scrollTop = scrollTop;
+        }
+      
+        const listenScroll = (e) => { 
+            scrollTop = e.target.scrollTop;
+            handleScroll(scrollTop);
+            checkOpacityLevel(scrollTop);
+        }
+
+        function showButtons() {
+            document.querySelector('#btn-div').innerHTML = btnStates.map((btn, i) => 
+                `<button class = 'bg-grey-200 flex items-center justify-center text-[14px] text-primary w-[177px] py-[15px] rounded-[10px]' onclick='handleBtnClick(${i}, ${btn.scrollTop})'>
+                  ${btn?.star ? `<img src= ${btn.active ?  './assets/gold_star.svg'  : './assets/grey_star.svg'} alt="star" class='mr-2'/>` : `` }
+    
+                  ${btn.content}
+                </button>`
+                ).join('');
+
+                btnStates.forEach((btn, i) => {
+                  if (btn.active){
+                    document.querySelectorAll('button')[i].classList.add('bg-secondary');
+                    document.querySelectorAll('button')[i].classList.remove('bg-grey-200')
+                  }
+                })
+        }
+
+        showButtons();
+
+
+        document.querySelector('#scroll-div').innerHTML = `
+        <div class="det relative h-[430px] w-[300px] md:ml-[250px] ml-[130px] snap-center" >
+          <div class="line bg-[#D80369] w-1 h-full absolute top-[170px] md-left-58px left-16px"></div>
+          <p class="year font-cab-grot font-bold absolute md:left-[-145px] left-[-80px] top-[159px] md:text-[30px] text-[18px] text-right">2009</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute md:top-[170px] top-[163px]" />
+              <div class="illustration">
+                  <img src="https://sterlingpro.thebrandally.com/wp-content/uploads/2023/01/Asset-2@4x-1-e1674501360897-249x300.png" alt="div-001"/>
+                  <img src="./assets/line.svg" alt="line" />
+              </div>
+              <p class='font-dm-sans font-grey-300 text-[20px] mt-5'>Launched <span class='text-secondary font-extrabold font-dm-sans'>TWIG</span> Decentralised Statement Print Solution</p>
+
+            </div>
+            <div class="det relative h-[430px] w-[300px] md:ml-[250px] ml-[130px] snap-start">
+              <div class="line bg-[#D80369] w-1 h-full absolute top-[170px] md-left-58px left-16px"></div>
+              <p class="year font-cab-grot font-bold absolute md:left-[-247px] left-[-127px] top-[159px]  md:text-[30px] text-[18px] text-right">2010 - 2012</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute md:top-[170px] top-[163px]"  />
+              <div class="illustration">
+                  <div>
+                  <img src="https://sterlingpro.thebrandally.com/wp-content/uploads/2023/01/Group-193.png" alt="lock" />
+                  </div>
+                  <img src="./assets/line.svg" alt="line" />
+              </div>
+            <p class='font-dm-sans font-grey-300 text-[20px] mt-5'>Developed <span class='text-secondary font-extrabold font-dm-sans'>TWIG SECURE</span> Pin Issuance Solution<span class='text-secondary font-extrabold font-dm-sans'></span></p>
+
+            </div>
+            <div class="det relative snap-start h-[430px] w-[300px] md:ml-[250px] ml-[130px]">
+              <div class="line bg-[#D80369] w-1 h-full absolute top-[170px] md-left-58px left-16px"></div>
+              <p class="year font-cab-grot font-bold absolute md:left-[-247px] left-[-127px] top-[159px]  md:text-[30px] text-[18px] text-right">2013 - 2014</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute  md:top-[170px] top-[163px]" />
+              <div class="illustration">
+                  <div>
+                    <img src="https://sterlingpro.thebrandally.com/wp-content/uploads/2023/01/Group-192.png" alt="p14" class='z-20'/>
+                  </div>
+                  <img src="./assets/line.svg" alt="line" />
+              </div>
+              <p class='font-dm-sans  font-grey-300 text-[20px] mt-5'>Developed <span class='text-secondary font-extrabold font-dm-sans'>Instant PIN</span> solution via POS, ATM and Self serve channels</p>
+            </div>
+            <div class="det relative h-[430px] snap-start w-[300px] md:ml-[250px] ml-[130px]">
+              <div class="line bg-[#D80369] w-1 h-full absolute top-[170px] md-left-58px left-16px"></div>
+              <p class="year font-cab-grot font-bold absolute md:left-[-247px] left-[-127px] top-[159px]  md:text-[30px] text-[18px] text-right">2014 - 2015</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute  md:top-[170px] top-[163px]" />
+              <div class="illustration">
+                  <div>
+                    <img src="https://sterlingpro.thebrandally.com/wp-content/uploads/2023/01/Group-192-1.png" alt="p15" class='mt-[-10px]'/>
+                  </div>
+                  <img src="./assets/line.svg" alt="line" />
+              </div>
+              <p class='font-dm-sans  font-grey-300 text-[20px] mt-5'>Launched <span class='text-secondary font-extrabold font-dm-sans'>ATM Monit</span> Solution</p>
+            </div>
+            <div class="snap-start det relative h-[430px] w-[300px] md:ml-[250px] ml-[130px]">
+              <div class="line bg-[#D80369] w-1 h-full absolute top-[170px] md-left-58px left-16px"></div>
+              <p class="year font-cab-grot font-bold absolute md:left-[-247px] left-[-127px] top-[159px]  md:text-[30px] text-[18px] text-right">2016 - 2019</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute  md:top-[170px] top-[163px]" />
+              <div class="illustration">
+                  <img src="https://sterlingpro.thebrandally.com/wp-content/uploads/2023/01/Group-192-2.png" alt="fingerprint" />
+                  <img src="./assets/line.svg" alt="line" />
+              </div>
+              <p class='font-dm-sans  font-grey-300 text-[20px] mt-5'>Introduced <span class='text-secondary font-extrabold font-dm-sans'>ATM Biometric</span> Card-less Payment Solution</p>
+            </div>
+            <div class="snap-start det relative h-[470px] w-[300px] md:ml-[250px] ml-[130px]">
+              <div class="line bg-[#D80369] w-1 h-full absolute top-[170px] md-left-58px left-16px"></div>
+              <p class="year font-cab-grot font-bold absolute md:left-[-247px] left-[-127px] top-[159px]  md:text-[30px] text-[18px] text-right">2020 - 2021</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute  md:top-[170px] top-[163px]" />
+              <div class="illustration">
+                  <div>
+                  <img src="https://sterlingpro.thebrandally.com/wp-content/uploads/2023/01/Group-192-3.png" alt="fingerprint2" />
+                  </div>
+                  <img src="./assets/line.svg" alt="" />
+              </div>
+              <p class='font-dm-sans  font-grey-300 text-[20px] mt-5'><span class='text-secondary font-extrabold font-dm-sans'>Expanded</span> ATM Biometric Card-less Solution</p>
+            </div>
+            <div class="snap-start det relative h-[430px] w-[300px] md:ml-[250px] ml-[130px]">
+              <div class="line bg-[#D80369] w-1 h-[200px] absolute top-[170px] md:left-58px left-16px"></div>
+              <p class="year font-cab-grot font-bold absolute md:left-[-145px] left-[-80px] top-[159px]  md:text-[30px] text-[18px] text-right">2022</p>
+              <img src="./assets/list_icon.svg" alt="" class="md:left-[-67px] left-[-26px] absolute  md:top-[170px] top-[163px]" />
+              <div class="illustration">
+                  <div>
+                    <img src="./assets/star.svg" alt="star" />
+                  </div>
+                  <img src="./assets/line.svg" alt="linee" />
+              </div>
+              <p class='font-dm-sans  font-grey-300 text-[20px] mt-5'>Launch B2C Products <span class='text-secondary font-extrabold font-dm-sans'>(BIOTRANX)</span></p>
+            </div>
+        `;
+
+        function checkOpacityLevel(scrollT) {
+          const allScrollDivs = document.querySelectorAll('div.det');
+          console.log(allScrollDivs);
+          if(scrollT < 230) {
+            allScrollDivs[1].classList.add('opacity-10');
+          } else if(scrollT > 230 && scrollT < 660) {
+            allScrollDivs[1].classList.remove('opacity-10');
+            allScrollDivs[2].classList.add('opacity-10');
+            allScrollDivs[3].classList.add('opacity-10');
+            allScrollDivs[4].classList.add('opacity-10');
+            allScrollDivs[5].classList.add('opacity-10');
+            allScrollDivs[6].classList.add('opacity-10');
+          }  else if(scrollT > 660 && scrollT < 1090) {
+            allScrollDivs[1].classList.remove('opacity-10');
+            allScrollDivs[2].classList.remove('opacity-10');
+            allScrollDivs[3].classList.add('opacity-10');
+            allScrollDivs[4].classList.add('opacity-10');
+            allScrollDivs[5].classList.add('opacity-10');
+            allScrollDivs[6].classList.add('opacity-10');
+          }  else if(scrollT > 1090 && scrollT < 1520) {
+            allScrollDivs[1].classList.remove('opacity-10');
+            allScrollDivs[2].classList.remove('opacity-10');
+            allScrollDivs[3].classList.remove('opacity-10');
+            allScrollDivs[4].classList.add('opacity-10');
+            allScrollDivs[5].classList.add('opacity-10');
+            allScrollDivs[6].classList.add('opacity-10');
+          }  else if(scrollT > 1520 && scrollT < 1950) {
+            allScrollDivs[1].classList.remove('opacity-10');
+            allScrollDivs[2].classList.remove('opacity-10');
+            allScrollDivs[3].classList.remove('opacity-10');
+            allScrollDivs[4].classList.remove('opacity-10');
+            allScrollDivs[5].classList.add('opacity-10');
+            allScrollDivs[6].classList.add('opacity-10');
+          }  else if(scrollT > 1950 && scrollT < 2380) {
+            allScrollDivs[1].classList.remove('opacity-10');
+            allScrollDivs[2].classList.remove('opacity-10');
+            allScrollDivs[3].classList.remove('opacity-10');
+            allScrollDivs[4].classList.remove('opacity-10');
+            allScrollDivs[5].classList.remove('opacity-10');
+            allScrollDivs[6].classList.add('opacity-10');
+          } else if (scrollT > 2380) {
+            allScrollDivs[1].classList.remove('opacity-10');
+            allScrollDivs[2].classList.remove('opacity-10');
+            allScrollDivs[3].classList.remove('opacity-10');
+            allScrollDivs[4].classList.remove('opacity-10');
+            allScrollDivs[5].classList.remove('opacity-10');
+            allScrollDivs[6].classList.remove('opacity-10');
+          }
+        }
+
+        checkOpacityLevel(0);
+      </script>
+</body>
+</html>
